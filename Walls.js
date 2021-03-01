@@ -15,6 +15,7 @@ class Wall {
        
         rectMode(CENTER);
         fill(255);
+        fill('red');
         rect(pos.x, pos.y, this.width, this.height);
     }
 }
